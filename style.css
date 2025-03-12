@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+@font-face{
+    font-family: title;
+    src: url("Data70.ttf");
+}
+h1, h2{
+    font-family: title;
+    font-weight: normal;
+}
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    color: rgb(102, 91, 91);
+    font-size: 0.9em;
+}
+
+#cvs{
+    background-color:black; 
+    border-style: solid; 
+    border-color: white; 
+    border-radius:1.5%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: fixed;
+}
+p{
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#infoDisplay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0);
+    background-color: rgb(0,0,0,0.4);            
+}
+
+#modalContents{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black; 
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 12px;
+}
+
+#modalContents > *{
+    padding: 12px;
+}
