@@ -844,7 +844,7 @@ setInterval(function(){
             started = false;
             lives = 3;
             gameOverTimer = 0;
-            callAjax();
+            loadNewScores();
         }
     }
 
