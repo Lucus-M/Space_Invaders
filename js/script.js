@@ -11,7 +11,7 @@ function setResult(string){
 //ajax function to get updated high score table from database
 function loadNewScores(){
     $.ajax({
-        url: 'http://178.128.148.67/lucus/invaders/php/loadscores.php',
+        url: 'https://www.lucusdm.com/lucus/invaders/php/loadscores.php',
         type: 'POST',
         dataType: 'text',
         success: function(result){
@@ -906,7 +906,7 @@ $(document).ready(function(){
         //load php to update scores in database
         $.ajax({
             type: "post",
-            url: 'http://178.128.148.67/lucus/invaders/php/changescore.php',
+            url: 'https://www.lucusdm.com/lucus/invaders/php/changescore.php',
             //url: 'php/changescore.php',
             data: {
                 'initial': initials,
